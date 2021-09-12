@@ -1,0 +1,147 @@
+@font-face {
+    font-family:  'Nunito';
+    src: url('./fonts/Nunito-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+.body {
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 1152px;
+    margin: auto;
+    font-family: Nunito, Tahoma, Verdana, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+.header {
+    display: flex;
+    max-width: 1152px;
+    position: relative;
+}
+
+.header__rectangle {
+    background-color: #F9BDBD;
+    width: 370px;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    border-radius: 0 0 0 100px;
+}
+
+.header__table {
+    position: absolute;
+    width: 568px;
+    height: 577px;
+    background-image: url('./images/table.png');
+    right: 0;
+    top: 165px;
+}
+
+.header__nav {
+    max-width: 1152px;
+    height: 80px;
+    display: flex;
+    position: relative;
+}
+
+.header__logo {
+    max-width: 192px;
+    height: 33px;
+    margin-top: 23px;
+    margin-left: 80px;
+    margin-right: 115px;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 430px;
+    column-gap: 48px;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.header__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.header__link_selected {
+    font-weight: 800;
+    color: #DAA520;
+}
+
+.header__content {
+    position: absolute;
+    width: 504px;
+    top: 217px;
+    left: 102px;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    margin: 0;
+}
+
+.header__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.header__button {
+    background-color: #DAA520;
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    border-style: none;
+}
