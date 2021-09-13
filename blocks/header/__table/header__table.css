@@ -1,0 +1,8 @@
+.header__table {
+    position: absolute;
+    width: 568px;
+    height: 577px;
+    background-image: url('/images/table.png');
+    right: 0;
+    top: 165px;
+}

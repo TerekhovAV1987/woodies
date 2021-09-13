@@ -1,0 +1,5 @@
+.about__picture1 {
+    max-width: 426px;
+    height: 388px;
+    grid-area: picture1;
+}

@@ -1,0 +1,10 @@
+.about__content{
+    max-width: 1052px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
+    row-gap: 40px;
+    grid-template-areas: "picture1 paragraph1 paragraph1"
+                        "paragraph2 paragraph2 picture2";
+}

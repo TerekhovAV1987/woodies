@@ -1,0 +1,17 @@
+.footer__adress {
+    padding: 0;
+    max-width: 192px;
+    max-height: 138px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #8D8D8D;
+    margin: 0;
+    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

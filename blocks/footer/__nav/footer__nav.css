@@ -1,0 +1,11 @@
+.footer__nav {
+    display: flex;
+    max-width: 709px;
+    max-height: 138px;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 52px;
+    padding-left: 107px;
+    padding-top: 232px;
+}

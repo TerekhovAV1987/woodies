@@ -1,0 +1,17 @@
+.categories__card-button {
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-left: 141px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    width: 123px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #3E3F43;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}

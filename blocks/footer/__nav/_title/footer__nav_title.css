@@ -1,0 +1,9 @@
+.footer__nav_title {
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color:#333333;
+    width: 85px;
+}

@@ -1,0 +1,10 @@
+.footer__line {
+    max-width: 708px;
+    top: 208px;
+    margin-left: 108px;
+    border: none;
+    background-color: #C4C4C4;
+    color: #C4C4C4;
+    height: 1px;
+    position: relative;
+}

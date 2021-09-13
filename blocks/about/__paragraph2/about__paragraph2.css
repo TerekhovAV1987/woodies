@@ -1,0 +1,5 @@
+.about__paragraph2 {
+    max-width: 648px;
+    grid-area: paragraph2;
+    align-self: center;
+}

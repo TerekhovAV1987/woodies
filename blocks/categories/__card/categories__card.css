@@ -1,0 +1,27 @@
+.categories__card {
+    max-width: 280px;
+    height: 400px;
+    border-radius: 0 100px 0 100px;
+    background-color: #F9BDBD;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 56px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories__card:nth-child(2) {
+    background-color: #F7DEA6;
+}
+
+.categories__card:nth-child(3) {
+    margin-right: 0;
+    background-color: #A8DCEC;
+}
+
+.categories__card:nth-child(5) {
+    margin-right: 0;
+    background-color: #F7DEA6;
+}

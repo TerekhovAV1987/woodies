@@ -1,0 +1,7 @@
+.about__paragraph1 {
+    max-width: 448px;
+    grid-area: paragraph1;
+    align-self: center;
+    left: 30px;
+    position: relative;
+}

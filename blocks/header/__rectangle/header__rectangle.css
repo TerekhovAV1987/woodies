@@ -1,0 +1,9 @@
+.header__rectangle {
+    background-color: #F9BDBD;
+    width: 370px;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    border-radius: 0 0 0 100px;
+}

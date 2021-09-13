@@ -1,0 +1,10 @@
+.about__title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    margin: 0;
+    color: rgba(34, 34, 34, 0.1);
+}

@@ -1,0 +1,8 @@
+.works__head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: 952px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}

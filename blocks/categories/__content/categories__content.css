@@ -1,0 +1,10 @@
+.categories__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 952px;
+    row-gap: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

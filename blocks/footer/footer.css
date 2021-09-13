@@ -1,0 +1,9 @@
+.footer {
+    position: relative;
+    max-width: 1152px;
+    min-height: 455px;
+    background-image: url('/images/woodies.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+.about__head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: 952px;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+}

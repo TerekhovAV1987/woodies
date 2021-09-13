@@ -1,0 +1,11 @@
+.header__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 430px;
+    column-gap: 48px;
+    padding: 0;
+    flex-wrap: nowrap;
+}

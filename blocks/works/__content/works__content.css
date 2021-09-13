@@ -1,0 +1,6 @@
+.works__content {
+
+    display: grid;
+    max-width: 952px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
